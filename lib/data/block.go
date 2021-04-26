@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
-	"github.com/ClickHouse/clickhouse-go/lib/column"
-	wb "github.com/ClickHouse/clickhouse-go/lib/writebuffer"
+	"github.com/c3mb0/clickhouse-go/lib/binary"
+	"github.com/c3mb0/clickhouse-go/lib/column"
+	wb "github.com/c3mb0/clickhouse-go/lib/writebuffer"
 )
 
 type offset [][]int

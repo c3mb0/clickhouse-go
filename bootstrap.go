@@ -15,11 +15,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/lib/leakypool"
+	"github.com/c3mb0/clickhouse-go/lib/leakypool"
 
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
-	"github.com/ClickHouse/clickhouse-go/lib/data"
-	"github.com/ClickHouse/clickhouse-go/lib/protocol"
+	"github.com/c3mb0/clickhouse-go/lib/binary"
+	"github.com/c3mb0/clickhouse-go/lib/data"
+	"github.com/c3mb0/clickhouse-go/lib/protocol"
 )
 
 const (

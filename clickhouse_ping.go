@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql/driver"
 
-	"github.com/ClickHouse/clickhouse-go/lib/protocol"
+	"github.com/c3mb0/clickhouse-go/lib/protocol"
 )
 
 func (ch *clickhouse) Ping(ctx context.Context) error {

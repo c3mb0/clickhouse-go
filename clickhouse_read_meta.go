@@ -3,8 +3,8 @@ package clickhouse
 import (
 	"fmt"
 
-	"github.com/ClickHouse/clickhouse-go/lib/data"
-	"github.com/ClickHouse/clickhouse-go/lib/protocol"
+	"github.com/c3mb0/clickhouse-go/lib/data"
+	"github.com/c3mb0/clickhouse-go/lib/protocol"
 )
 
 func (ch *clickhouse) readMeta() (*data.Block, error) {

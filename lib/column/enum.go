@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
+	"github.com/c3mb0/clickhouse-go/lib/binary"
 )
 
 type Enum struct {

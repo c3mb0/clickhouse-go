@@ -1,6 +1,6 @@
 package clickhouse
 
-import "github.com/ClickHouse/clickhouse-go/lib/data"
+import "github.com/c3mb0/clickhouse-go/lib/data"
 
 func (ch *clickhouse) sendExternalTables(externalTables []ExternalTable) error {
 	ch.logf("[send external tables] count %d", len(externalTables))

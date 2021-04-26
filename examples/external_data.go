@@ -4,11 +4,12 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/lib/column"
 	"log"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go"
+	"github.com/c3mb0/clickhouse-go/lib/column"
+
+	"github.com/c3mb0/clickhouse-go"
 )
 
 func main() {

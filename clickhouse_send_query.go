@@ -2,8 +2,9 @@ package clickhouse
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/lib/data"
-	"github.com/ClickHouse/clickhouse-go/lib/protocol"
+
+	"github.com/c3mb0/clickhouse-go/lib/data"
+	"github.com/c3mb0/clickhouse-go/lib/protocol"
 )
 
 func (ch *clickhouse) sendQuery(ctx context.Context, query string, externalTables []ExternalTable) error {

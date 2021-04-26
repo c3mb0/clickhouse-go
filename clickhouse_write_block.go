@@ -1,8 +1,8 @@
 package clickhouse
 
 import (
-	"github.com/ClickHouse/clickhouse-go/lib/data"
-	"github.com/ClickHouse/clickhouse-go/lib/protocol"
+	"github.com/c3mb0/clickhouse-go/lib/data"
+	"github.com/c3mb0/clickhouse-go/lib/protocol"
 )
 
 func (ch *clickhouse) writeBlock(block *data.Block, tableName string) error {

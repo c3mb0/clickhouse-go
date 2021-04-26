@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
+	"github.com/c3mb0/clickhouse-go"
 	"github.com/jmoiron/sqlx"
-	"github.com/ClickHouse/clickhouse-go"
 )
 
 func main() {

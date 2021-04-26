@@ -3,7 +3,7 @@ package data
 import (
 	"fmt"
 
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
+	"github.com/c3mb0/clickhouse-go/lib/binary"
 )
 
 const ClientName = "Golang SQLDriver"

@@ -3,7 +3,7 @@ package column
 import (
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
+	"github.com/c3mb0/clickhouse-go/lib/binary"
 )
 
 type DateTime struct {
@@ -82,6 +82,6 @@ func (dt *DateTime) parse(value string) (int64, error) {
 		time.Time(tv).Hour(),
 		time.Time(tv).Minute(),
 		time.Time(tv).Second(),
-		0, time.Local,    //use local timzone when insert into clickhouse
+		0, time.Local, //use local timzone when insert into clickhouse
 	).Unix(), nil
 }

@@ -5,7 +5,7 @@ import (
 	"database/sql/driver"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/lib/data"
+	"github.com/c3mb0/clickhouse-go/lib/data"
 )
 
 // Interface for Clickhouse driver

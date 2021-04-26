@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	bklz4 "github.com/bkaradzic/go-lz4"
+	ownlz4 "github.com/c3mb0/clickhouse-go/lib/lz4"
 	cflz4 "github.com/cloudflare/golz4"
-	ownlz4 "github.com/ClickHouse/clickhouse-go/lib/lz4"
 	pilz4 "github.com/pierrec/lz4"
 )
 
